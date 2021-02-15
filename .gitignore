@@ -1,0 +1,17 @@
+\bin/
+\obj/
+.vscode/
+# *.sln
+\.vs/
+*.nupkg
+*.rdb
+*.xml
+do/ci/package/
+do/ci/package.zip
+venv
+dist
+*-deploy*.tar.gz
+lcov.info
+test-coverage/
+datasets/
+Folder.DotSettings.user

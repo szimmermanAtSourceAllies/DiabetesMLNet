@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FileHelpers" Version="3.4.2" />
+      <PackageReference Include="Microsoft.ML" Version="1.5.4" />
+    </ItemGroup>
+
+</Project>

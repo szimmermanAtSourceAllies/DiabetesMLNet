@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp5.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="FileHelper" Version="2.0.0" />
+        <PackageReference Include="Microsoft.ML" Version="1.5.4" />
+        <PackageReference Include="Microsoft.ML.FastTree" Version="1.5.4" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Diabetes.Models\Diabetes.Models.csproj" />
+    </ItemGroup>
+
+</Project>
